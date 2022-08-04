@@ -1,8 +1,12 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import { Container } from 'react-bootstrap'
 
 const AllCryptos = () => {
   return (
-    <div>AllCryptos</div>
+    <Container>
+      <h2>Cryptos</h2>
+      
+    </Container>
   )
 }
 
